@@ -1,0 +1,212 @@
+
+#fleur{
+  position: absolute;
+  left:39%;
+  top: 10em;
+
+}
+
+nav li{
+    list-style-type:none;
+    float:left;
+}
+#test{
+  margin: 0px;
+  padding: 0px;
+}
+nav ul{
+    margin:0px;
+    padding:0px;
+}
+
+nav>ul>li{
+  text-align: center;
+  float: left;
+  position: relative;
+  width: 25%;
+}
+
+nav li{
+  list-style-type: none;
+}
+.submenu{
+  display: none;
+}
+
+nav{
+    width:100%;
+    background-color:#0A0B3E ;
+}
+
+nav>ul::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+nav>ul>li>a{
+  padding:20px 20px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+
+nav a{
+    display: inline-block;
+    text-decoration:none;
+    color:#000000;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+nav li:hover .submenu{
+  display: inline-block;
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  padding: 0px;
+  z-index: 100000;
+}
+.submenu li{
+  border-bottom: 1px solid #CCC;
+
+}
+.submenu li a{
+  padding: 15px 30px;
+  font-size: 15px;
+  color:#000000;
+  width: 28em;
+  word-spacing:5px;
+  background-color: rgba(194, 194, 194, 0.20);
+}
+
+.menu-jap:hover{
+    border-top: 5px solid #4c8;
+    background-color: rgba(0, 255, 127, 0.15);
+}
+.menu-ev:hover{
+    border-top: 5px solid #2884FF;
+    background-color: rgba(0,206,209,0.15);
+}
+.menu-forum:hover{
+    border-top: 5px solid #FFD700 ;
+    background-color: rgba(255, 244, 69, 0.15);
+}
+.menu-con:hover{
+    border-top: 5px solid #FF0000;
+    background-color: rgba(228, 77, 38, 0.15);
+}
+
+.menu-jap .submenu{
+  background-color: rgba(255, 255, 255, 0.70);
+
+}
+.menu-ev .submenu{
+  background-color: rgba(255, 255, 255, 0.70);
+}
+.menu-forum .submenu{
+  background-color: rgb(100,216,000);
+}
+.submenu li:hover a{
+  color: #000000;
+  font-weight: bold;
+}
+.menu-jap .submenu li:hover{
+  background-color: rgba(0, 255, 127,0.40);
+}
+.menu-ev .submenu li:hover{
+  background-color: rgb(0, 185, 255,0.40);
+}
+.menu-forum .submenu li:hover{
+  background-color: rgb(60,176,000);
+}
+nav > ul> li:hover>a{
+    padding: 15px 20px 20px 20px;
+}
+
+#histoire{
+    position: absolute;
+    top: 10em;
+    left:25%;
+    width: 62.4em;
+    margin:0em auto;
+    margin-top: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color:#FFECEC;
+    text-align: center;
+    align-content: center;
+    border-radius: 4em;
+    border:0.5em solid #FF59A2  ;
+
+}
+#territoire{
+    position: absolute;
+    top:97em;
+    left:25%;
+    width: 62.4em;
+    margin: -1em auto;
+    margin-bottom: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color:#FFF2E9  ;
+    text-align: center;
+    align-content: center;
+    border-radius: 4em;
+    border:0.5em solid #FF903F  ;
+  }
+.samurai{
+  position: relative;
+  float: right;
+}
+p{
+  margin:3em;
+  font-size: 1.20em;
+}
+img{
+  position: relative;
+  margin-top: -2em;
+  float: left;
+}
+
+#mcjd{
+  position: absolute;
+  top: 7em;
+  right: 2em;
+}
+#fb{
+  position: absolute;
+  bottom: -25em;
+  right: 1em;
+}
+#tw{
+  position: absolute;
+  bottom: -27.20em;
+    right: 1em;
+}
+#in{
+  position: absolute;
+  bottom:-29.20em;
+    right: 1em;
+}
+
+h2{
+  position: absolute;
+  top:3em;
+  left:43%;
+  font-size: 2.5em;
+
+}
+
+h3{
+  position: absolute;
+  top:36em;
+  left:43%;
+  font-size: 2.5em;
+}
+body{
+  
+
+    padding-left:10%;
+  padding-right:10%;
+}

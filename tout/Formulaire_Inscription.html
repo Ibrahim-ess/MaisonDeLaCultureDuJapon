@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="utf-8"/>
+			<title> Inscription</title>
+			<link rel="stylesheet" type="text/css" href="Inscription2.css" media="screen"/>
+		</head>
+		<body>
+			<h1><img src="../images/japan.jpg" alt="japon" id="japon"/>Participer à une activité</h1>
+			<form method="post" action="bdd_modifie.py" onsubmit="return valider();">
+			<fieldset id="principal">
+			<legend>Vos données personnelles</legend>
+			
+			<img src="../images/Arbre.jpg" alt="rose-des-vents" id="arbre"/>
+			<p>Champ obligatoire (<span class="obligatoire">*</span>)</p>
+			
+			<div id="coordonnees">
+			<p><span class="obligatoire">*</span> <label for="nom"> Nom :  </label>
+			<input type="text" name="nom" id="nom"></p>
+			
+			<p> <span class="obligatoire">*</span> <label for="prenom">  Prénom :  </label>
+			<input type="text" name="prenom" id="prenom"></p>
+			
+			
+			<p> <span class="obligatoire">*</span> <label for="email"> Email  : </label>
+			<input type="email" name="email" id="email" placeholder="toto@gmail.com"></p>
+			<p><label for="telephone">Téléphone :  </label>
+			<input type="tel" name="telephone" id="telephone" placeholder="0610000030"></p>
+			</div>
+			
+			<fieldset id="secondaire">
+			<legend> Quelle activité vous intéresse ?</legend>
+			<p><input type="radio" name="activite" id="japan" value="japan expo" checked>
+			<label for="activite1" class="act"> Japan Expo </label>
+			<input type="radio" name="activite" id="activite2" value="salon de thé wagashi">
+			<label for="activite2" class="act"> Salon de thé wagashi</label>
+			<input type="radio" name="activite" id="activite3" value="dessine un manga">
+			<label for="activite3" class="act"> Dessine un manga</label>
+			<input type="radio" name="activite" id="activite4" value="fabriquons des nuno zori">
+			<label for="activite4" class="act"> Fabriquer des nuno zori</label></p>
+			
+			<div id="activite">
+			<input type="radio" name="activite" id="activite6" value="ikebana">
+			<label for="activite6" class="act2"> Ikebana</label>
+			<input type="radio" name="activite" id="activite7" value="les tambours sacrés">
+			<label for="activite7" id="act2"> Les tambours sacrés </label>
+			<input type="radio" name="activite" id="activite5" value="les cerisiers de fukushima">
+			<label for="activite5"> Les cérisiers du fukushima</label>
+			</div>
+			</fieldset>
+			
+			<script src="validation.js"></script>
+			<div id="bouton"><input type="submit" name="Submit" value="Envoyer" id="button" /></div>
+			</fieldset>
+		</body>
+		<footer>
+			<p><a href="../index.html">Retour à l'accueil</a></p>
+			<p><a href="form-annulation.html"> Annuler votre réservation</a></p>
+			<p><a href="https://www.mcjp.fr/"> Le site de la maison culturelle du Japon</a></p>
+			
+		</footer> 
+			
+	</html>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			

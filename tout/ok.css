@@ -1,0 +1,55 @@
+body{
+	width:85%;
+	margin:auto;
+	margin-left:auto;
+	margin-top:5%;
+	font-size:large;
+}
+
+section{
+	border:3px solid black;
+	padding-left:2em;
+	margin-left:-0.5em;
+	margin-right:-0.5em;
+	margin-top:-0.5em;
+	padding-bottom:4.4em;
+	background-color:white;
+}
+
+h1{
+	font-weight:lighter;
+	margin-left:10em;
+	padding-bottom:1.5em;
+}
+
+legend{
+	text-align:center;
+}
+
+
+img{
+	height:14.2em;
+	width:25em;
+	float:right;
+	margin-top:-1.2em;
+	border:1px solid black;
+	
+}
+
+footer{
+	margin-left:20em;
+	padding-top:1.5em;
+}
+
+div{
+	border:3px solid black;
+	padding-top:1em;
+	padding-bottom:0.5em;
+	padding-left:1em;
+	padding-right:1em;
+	margin-top:-2em;
+	margin-right:15em;
+	margin-left:5em;
+	background-color:#FF7CB8;
+}
+

@@ -1,0 +1,100 @@
+@media only screen and (min-device-width:900px){
+body{
+	width:70%;
+	margin:auto;
+	margin-left:auto;
+	margin-top:5%;
+	font-family:Sylfaen;
+}
+}
+
+h1{
+	text-transform:uppercase;
+}
+
+legend{
+	padding-left:1em;
+	padding-right:1em;
+	margin-left:8em;
+}
+
+fieldset{
+	padding-right:1.5em;
+	padding-left:1.5em;
+	padding-bottom:1.5em;
+	padding-top:0.01em;
+	border:7px solid #653300;
+	border-radius:8px;
+}
+
+
+form{
+	border:6px solid #9E5103;
+	margin-top:-1em;
+	padding-bottom:9em;
+	padding-left:5em;
+	padding-top:3.5em;
+}
+
+label{
+	margin-right:1em;
+	padding-top:1em;
+	font-size:large;
+	font-weight:bold;
+}
+
+button{
+	height:2em;
+	width:6.5em;
+	margin-top:1.7em;
+	font-size:large;
+	font-weight:bold;
+	border-top-left-radius : 20px 8px;
+	border-top-right-radius: 20px 8px;
+	border-bottom-right-radius: 20px 8px;
+	border-bottom-left-radius: 20px 8px;
+	border-color:black;
+	background-color:white;
+	font-family:Sylfaen;
+}
+
+footer{
+	padding-top:1em;
+}
+
+img{
+	height:14em;
+	width:16em;
+	float:right;
+}
+
+input{
+	height:2em;
+	border:2px solid black;
+}
+
+#act{
+	width:15em;
+}
+
+#mail{
+	width:17em;
+}
+	
+
+#bouton{
+	text-align:center;
+}
+
+
+#indication{
+	font-style:italic;
+	font-size:small;
+}
+
+
+
+
+
+
+
